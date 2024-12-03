@@ -6,7 +6,8 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "start-timestamp": "node timestamp.js",
     "start-headerParser": "node headerParser.js",
-    "start-urlShortener" : "node urlShortener.js"
+    "start-urlShortener": "node urlShortener.js",
+    "start-excercise": "node excerciseTracker.js"
   },
   "keywords": [],
   "author": "",
@@ -15,6 +16,7 @@
   "dependencies": {
     "cors": "^2.8.5",
     "dotenv": "^16.4.6",
-    "express": "^4.21.1"
+    "express": "^4.21.1",
+    "uuid": "^11.0.3"
   }
 }
