@@ -5,7 +5,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start-timestamp": "node timestamp.js",
-    "start-headerParser": "node headerParser.js"
+    "start-headerParser": "node headerParser.js",
+    "start-urlShortener" : "node urlShortener.js"
   },
   "keywords": [],
   "author": "",
