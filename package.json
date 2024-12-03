@@ -7,7 +7,8 @@
     "start-timestamp": "node timestamp.js",
     "start-headerParser": "node headerParser.js",
     "start-urlShortener": "node urlShortener.js",
-    "start-excercise": "node excerciseTracker.js"
+    "start-excercise": "node excerciseTracker.js",
+    "start-filemetadata": "node filemetadata.js"
   },
   "keywords": [],
   "author": "",
@@ -17,6 +18,7 @@
     "cors": "^2.8.5",
     "dotenv": "^16.4.6",
     "express": "^4.21.1",
+    "multer": "^1.4.5-lts.1",
     "uuid": "^11.0.3"
   }
 }
